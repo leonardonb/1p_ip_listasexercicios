@@ -1,7 +1,7 @@
 # 1ª Lista de exercícios de IP (Introdução à Programação) ministrada pelo professor Luis Felipe Alves Pereira. Exercícios baseado em C.
 ###### (1p_ip_listaexercicio1)
 
-#### Questão 1: 
+#### Questão 1 
 Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas notas, considerando peso 2 para a primeira e peso 3 para a segunda.
 
 #### Questão 2
