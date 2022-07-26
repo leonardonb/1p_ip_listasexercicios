@@ -20,25 +20,22 @@ int main()
     printf("\n Digite mais um número: \n\n");
     scanf("%d", &n2);
 
-     printf("\n Digite um último número: \n\n");
+    printf("\n Digite um último número: \n\n");
     scanf("%d", &n3);
 
-    if (n1>n2){
-        if (n1>n3){
+    if (n1>n2 && n1>n3){
         printf("\n O maior número é o: %d \n\n", n1);
-            }
-        }
-        if (n2>n1){
-             if (n2>n3){
-            printf("\n O maior número é o: %d \n\n", n2);
-            }
         }
 
-            if (n3>n1){
-                if (n3>n2){
+        else if (n2>n1 && n2>n3){
+            printf("\n O maior número é o: %d \n\n", n2);
+            }
+
+            else if (n3>n1 && (n3>n2)){
                 printf("\n O maior número é o: %d \n\n", n3);
                 }
-           }
+// nesse caso, tanto faz usar "else if" como apenas "if"... O código funciona normal, é errado construir apenas com if ou isso pode gerar algum problema
+//em um código maior e mais complexo?
 
     system("pause");
     return 0;
