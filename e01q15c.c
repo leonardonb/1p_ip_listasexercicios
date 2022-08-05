@@ -4,10 +4,10 @@
 
 int main(){
 
-//Parte do aprendizado de Leonardo Nunes na disciplina de introdução à programação, no Curso de Ciência da Computação - UFAPE, 2022
+//Parte do aprendizado de Leonardo Nunes na disciplina de introduÃ§Ã£o Ã  programaÃ§Ã£o, no Curso de CiÃªncia da ComputaÃ§Ã£o - UFAPE, 2022
 
-/* Questão 15
-Faça um programa que receba três números e imprima-os em ordem crescente. */
+/* QuestÃ£o 15
+FaÃ§a um programa que receba trÃªs nÃºmeros e imprima-os em ordem crescente. */
 
     int idade;
 
@@ -30,7 +30,7 @@ Faça um programa que receba três números e imprima-os em ordem crescente. */
                 X = B; B = C; C = X;
                 }
 
-    printf("Em ordem crescente, os números digitados foram: %d, %d, %d\n", A, B, C);
+    printf("Em ordem crescente, os nÃºmeros digitados foram: %d, %d, %d\n", A, B, C);
 
     system("pause");
     return 0;
