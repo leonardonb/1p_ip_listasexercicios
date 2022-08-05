@@ -1,6 +1,6 @@
-// Quest„o 2
-// FaÁa um programa que receba o preÁo de um produto, calcule e mostre
-// o novo preÁo, sabendo-se que este sofreu um desconto de 10%.
+// Quest√£o 2
+// Fa√ßa um programa que receba o pre√ßo de um produto, calcule e mostre
+// o novo pre√ßo, sabendo-se que este sofreu um desconto de 10%.
 
 #include <stdio.h>
 #include <stdlib.h>
