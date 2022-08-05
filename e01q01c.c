@@ -1,5 +1,5 @@
-// Quest„o 1
-// FaÁa um programa que receba duas notas, calcule e mostre a mÈdia ponderada dessas notas,
+// Quest√£o 1
+// Fa√ßa um programa que receba duas notas, calcule e mostre a m√©dia ponderada dessas notas,
 // considerando peso 2 para a primeira e peso 3 para a segunda.
 
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main()
     printf("Digite a segunda nota: \n");
     scanf("%f", &nota2);
 
-    printf("A mÈdia ponderada È de:%.2f\n", (nota1*peso1)+(nota2*peso2)/(peso1+peso2));
+    printf("A m√©dia ponderada √© de:%.2f\n", (nota1*peso1)+(nota2*peso2)/(peso1+peso2));
 
     system("pause");
     return 0;
