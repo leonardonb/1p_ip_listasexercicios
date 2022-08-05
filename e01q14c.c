@@ -4,11 +4,11 @@
 
 int main(){
 
-//Parte do aprendizado de Leonardo Nunes na disciplina de introdução à programação, no Curso de Ciência da Computação - UFAPE, 2022
+//Parte do aprendizado de Leonardo Nunes na disciplina de introduÃ§Ã£o Ã  programaÃ§Ã£o, no Curso de CiÃªncia da ComputaÃ§Ã£o - UFAPE, 2022
 
-/* Questão 14
+/* QuestÃ£o 14
 Escreva um programa que, dada a idade de um nadador, classifique-o em uma das seguintes categorias:
-categoria - idade Infantil A - 5 a 7 Infantil B - 8 a 10 Juvenil A - 11 a 13 Juvenil B - 14 a 17 Sênior - >18 */
+categoria - idade Infantil A - 5 a 7 Infantil B - 8 a 10 Juvenil A - 11 a 13 Juvenil B - 14 a 17 SÃªnior - >18 */
 
     int idade;
 
@@ -30,7 +30,7 @@ categoria - idade Infantil A - 5 a 7 Infantil B - 8 a 10 Juvenil A - 11 a 13 Juv
         printf("Juvenil B\n");
     }
     else {
-        printf("Sênior\n");
+        printf("SÃªnior\n");
     }
 
  system("pause");
