@@ -4,10 +4,10 @@
 
 int main(){
 
-//Parte do aprendizado de Leonardo Nunes na disciplina de introduÁ„o ‡ programaÁ„o, no Curso de CiÍncia da ComputaÁ„o - UFAPE, 2022
+//Parte do aprendizado de Leonardo Nunes na disciplina de introdu√ß√£o √† programa√ß√£o, no Curso de Ci√™ncia da Computa√ß√£o - UFAPE, 2022
 
-/* Quest„o 13
-Leia a idade e o tempo de serviÁo de um trabalhador e escreva se ele pode ou n„o se aposentar. As condiÁıes para aposentadoria s„o:
+/* Quest√£o 13
+Leia a idade e o tempo de servi√ßo de um trabalhador e escreva se ele pode ou n√£o se aposentar. As condi√ß√µes para aposentadoria s√£o:
 a) ter pelo menos 65 anos, b) ou ter trabalhado pelo menos 30 anos, c) ou ter pelo menos 60 anos e trabalhado pelo menos 25 anos. */
 
     setlocale(LC_ALL,"");
@@ -17,21 +17,21 @@ a) ter pelo menos 65 anos, b) ou ter trabalhado pelo menos 30 anos, c) ou ter pe
     printf("Digite a idade\n", &idade);
     scanf("%d", &idade);
 
-    printf("Digite o tempo de serviÁo em anos\n", &temposerv);
+    printf("Digite o tempo de servi√ßo em anos\n", &temposerv);
     scanf("%d", &temposerv);
 
 
     if (idade>=60 && idade<65 && temposerv>=25){
-        printf("Aposentado por idade + tempo de serviÁo\n\n");
+        printf("Aposentado por idade + tempo de servi√ßo\n\n");
     }
     else if (idade>=65){
         printf("Aposentado por idade\n\n");
     }
     else if (temposerv>=30){
-        printf("Aposentado por tempo de serviÁo\n\n");
+        printf("Aposentado por tempo de servi√ßo\n\n");
     }
     else {
-        printf("Ainda n„o tem idade para se aposentar\n\n");
+        printf("Ainda n√£o tem idade para se aposentar\n\n");
     }
 
  system("pause");
