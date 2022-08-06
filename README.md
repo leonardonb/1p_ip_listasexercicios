@@ -55,7 +55,7 @@ Faça um programa que receba três números e imprima o maior deles.
 #### [Lista 01 - Questão 11](https://github.com/leonardonb/1p_ip_listasexercicios/blob/main/e01q11c.c)
 Faça um programa que receba um número qualquer e informe se este é par ou ímpar.
 
-#### Lista 01 - Questão 12
+#### [Lista 01 - Questão 12](https://github.com/leonardonb/1p_ip_listasexercicios/blob/main/e01q12c.c)
 Faça um programa que leia três números reais como coeficientes de um polinômio do
 segundo grau. Calcule as raízes da função usando a fórmula de bháskara. Dica: importe a
 biblioteca math.h para ter acesso as funcionalidades de potenciação
