@@ -5,11 +5,11 @@
 
 int main(){
 
-//Parte do aprendizado de Leonardo Nunes na disciplina de introdução à programação, no Curso de Ciência da Computação - UFAPE, 2022
+//Parte do aprendizado de Leonardo Nunes na disciplina de introduÃ§Ã£o Ã  programaÃ§Ã£o, no Curso de CiÃªncia da ComputaÃ§Ã£o - UFAPE, 2022
 
-/* Questão 12
-Faça um programa que leia três números reais como coeficientes de um polinômio do segundo grau. Calcule as raízes da função usando a
-fórmula de bháskara. Dica: importe a biblioteca math.h para ter acesso as funcionalidades de potenciação */
+/* QuestÃ£o 12
+FaÃ§a um programa que leia trÃªs nÃºmeros reais como coeficientes de um polinÃ´mio do segundo grau. Calcule as raÃ­zes da funÃ§Ã£o usando a
+fÃ³rmula de bhÃ¡skara. Dica: importe a biblioteca math.h para ter acesso as funcionalidades de potenciaÃ§Ã£o */
 
     int idade;
 
@@ -23,7 +23,7 @@ fórmula de bháskara. Dica: importe a biblioteca math.h para ter acesso as funcio
         delta=(B*B)-4*A*C;
         if (delta==0){
             x1 = (-B+sqrt(delta))/(2*A);
-            printf("Delta é igual a 0\n");
+            printf("Delta Ã© igual a 0\n");
             printf("x1 e x2 = %.2f\n", x1);
         }
             else{
@@ -40,7 +40,7 @@ fórmula de bháskara. Dica: importe a biblioteca math.h para ter acesso as funcio
             }
         }
             else{
-                printf("Não é uma equação de segundo grau");
+                printf("NÃ£o Ã© uma equaÃ§Ã£o de segundo grau");
             }
 
     system("pause");
